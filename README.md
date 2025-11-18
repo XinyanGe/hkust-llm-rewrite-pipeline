@@ -1,6 +1,6 @@
 # LLM Rewrite Pipeline (HKUST RA Project)
 
-This repository contains a lightweight, multi-threaded pipeline for rewriting large-scale text datasets using LLMs. The system supports GPT-based models, Doubao, and DeepSeek, with safe placeholder configuration for all API endpoints.
+A multi-threaded LLM rewriting pipeline developed during my research assistantship at HKUST.
 
 ## Features
 - Multi-threaded processing (up to 64 workers)
