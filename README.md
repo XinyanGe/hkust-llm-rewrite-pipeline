@@ -24,13 +24,15 @@ A multi-threaded LLM rewriting pipeline developed during my research assistantsh
 - `rewrite_pipeline.py` — main pipeline script
 
 ## Usage
-1. Fill in your API server URLs and keys at the top of the script:
+1. Install dependencies:
+pip install -r requirements.txt
+2. Fill in your API server URLs and keys at the top of the script:
 YOUR_SERVER_URL = "..."
 YOUR_API_KEY = "..."
 YOUR_ACCESS_KEY = "..."
 YOUR_MODEL_ENDPOINT = "..."
 GPT_SERVER_URL = "..."
-2. Run:
+3. Run the pipeline:
 python rewrite_pipeline.py
 
 ## Notes
